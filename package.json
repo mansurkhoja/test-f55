@@ -1,0 +1,15 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "test f55",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  
+  "author": "Mansur",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^30.0.2"
+  }
+}

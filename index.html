@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+  <title>test f55</title>
+  <script defer src="./renderer.js"></script>
+  <style>
+    body {
+      margin: 0;
+      color: #fff;
+    }
+
+    #webview {
+      width: 100%;
+      height: 600px;
+      display: inline-flex !important;
+    }
+  </style>
+</head>
+
+<body>
+  <webview
+    src="https://www.fon.bet/live"
+    autosize="on"
+    id="webview"
+  >
+  </webview>
+  <div>
+    <div>
+      <span>Команда1:</span>
+      <span>Счет1: </span>
+    </div>
+    <div>
+      <span>Команда2:</span>
+      <span>Счет2: </span>
+    </div>
+  </div>
+  <button>Show results if in football page</button>
+</body>
+
+</html>
